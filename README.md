@@ -32,9 +32,9 @@ PS: I know I use Comic sans, it is a good font and thats the end of this discuss
 
 ## Time Complexity
 
-### Time: O(YES) or Theta(1==1).
+Time: O(YES) or Theta(1==1)
 
-Jokes aside the gulag part of the algorithm is the first order of operation which should take O(n) time by itself ideally (if the array is reverse sorted you're probably screwed and face around O(n^2))
+Jokes aside the gulag part of the algorithm is the first order of operation which should take O(n) time by itself ideally (if the array is reverse sorted you're probably screwed and face around O(n^2)) although unlikely.
 
-The second part, depends on the merge algorithm chosen or implemented, I personally chose K-way sorting and like I said, am unsure if any other alternative exists in this scenario which takes O(n*k) where k is the amount of branches created.
-Which at the worst case (if the array is reverse sorted) is O(n^2).
+The second part, time depends on the merge algorithm chosen or implemented, I personally chose K-way sorting and like I said, am unsure if any other alternative exists in this scenario which takes O(n*log(k)) where k is the amount of branches created.
+Which at the worst case (if the array is reverse sorted) is O(nlog(n)). Therefore, assuming the array is not reverse sorted in majority, probabilistically it can be O(maybe nlog(n))
