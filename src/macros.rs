@@ -24,7 +24,7 @@ macro_rules! test_rs {
 macro_rules! test_other {
     ($fn:ident) => {
         let mut rng = thread_rng();
-        let arr: Vec<i32> = (0..10000).map(|_| rng.gen()).collect(); // Generate a random sequence of 1000 elements
+        let arr: Vec<i32> = (0..100000).map(|_| rng.gen()).collect(); // Generate a random sequence of 1000 elements
 
         let mut arr_clone = arr.clone();
         $fn(&mut arr_clone);
