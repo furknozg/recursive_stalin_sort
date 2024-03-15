@@ -1,4 +1,4 @@
-# A sorting algorithm that is built upon the principle of stalin sort
+# A sorting algorithm that is built upon the principle of Stalin sort
 
 Yes, that sorting algorithm where no substantial result is returned but a partial ordered part is. The Joke algorithm in a sense,
 
