@@ -42,3 +42,6 @@ Which at the worst case (if the array is reverse sorted) is O(nlog(n)). Therefor
 I believe that it is a skill issue in my part and somebody is going to break the news to me that this algorithm actually runs like O(n!) but until that day I will see this algo as O(n^2) at the worst of the worst.
 
 PS: Also it is highly unoptimized I just took 1 hour to draft and implement this and I dont know if this algorithm actually exists with a different name but I thought it was cool to turn stalin sort into a feasible algorithm
+
+## Update
+Upon testing, either it is my skill issue or the skill issue of the person I "&"ed from but my algorithm runtime is better than the selection sort and insertion sort in most cases.
