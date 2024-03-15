@@ -45,3 +45,5 @@ PS: Also it is highly unoptimized I just took 1 hour to draft and implement this
 
 ## Update
 Upon testing, either it is my skill issue or the skill issue of the person I "&"ed from but my algorithm runtime is better than the selection sort and insertion sort in most cases.
+
+This either suggests the coder I borrowed from has serious skill issues or it might actually be slightly less than O(n^2) in realistic cases
