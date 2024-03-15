@@ -6,7 +6,9 @@ but hear me out, there may be some merit to this algorithm. It just needs some p
 
 ## How so?
 
-Here's how it works, you first do the stalin sort, eliminating all the unordered elements and send them to the gulag
+Here's how it works, you first do the stalin sort, eliminating all the unordered elements and send them to the gulag, normally this means
+
+deleting the elements out of order but I believe that there are better ways of conveying a gulag such that it actually returns something substantial
 
 The Gulag being a seperate pool of numbers that you can implement stalin sort into, do this until you reach the end of the array
 
