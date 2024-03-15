@@ -24,6 +24,8 @@ But currently the k-way merge algorithm cannot achieve that result and I am plan
 
 ## Visual Representation
 
-![stalinsort drawio](https://github.com/furknozg/recursive_stalin_sort/assets/72404454/bce9dd20-c7ac-4ce8-9337-8b66576d500a)
+![stalin drawio](https://github.com/furknozg/recursive_stalin_sort/assets/72404454/024fbff2-9579-40af-bfaa-39b2b7069f9c)
+
+
 
 PS: I know I use Comic sans, it is a good font and thats the end of this discussion.
