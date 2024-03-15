@@ -16,7 +16,7 @@ Then you can do a merging algorithm (my choice is k-way merging and am not sure 
 
 ## What this achieves
 
-ABSOLUTELY NOTHING, but it is a funny idea to make a joke algorithm into something that actually works. The initial idea came through as a potential way of returning partially correct results (different slices of the array sorted).
+ABSOLUTELY NOTHING, but it is a funny idea to make a joke algorithm into something that actually works. The initial idea came through as a potential way of returning partially correct results on each iteration (different slices of the array sorted).
 
 Therefore achieving time efficient partial correctness with time constraints in mind, potentially for udp packet sorting in shorter time notices.
 
