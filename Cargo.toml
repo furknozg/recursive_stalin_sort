@@ -10,3 +10,6 @@ parameterized = "2.0.0"
 [dependencies]
 rand = "0.8.5"
 sorting_rs = "1.2.10"
+
+[profile.dev]
+debug = true
