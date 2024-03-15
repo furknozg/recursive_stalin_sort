@@ -21,3 +21,9 @@ ABSOLUTELY NOTHING, but it is a funny idea to make a joke algorithm into somethi
 Therefore achieving time efficient partial correctness with time constraints in mind, potentially for udp packet sorting in shorter time notices.
 
 But currently the k-way merge algorithm cannot achieve that result and I am planning to implement another merge method which might achieve partially accurate completions of the array.
+
+## Visual Representation
+
+![stalinsort drawio](https://github.com/furknozg/recursive_stalin_sort/assets/72404454/bce9dd20-c7ac-4ce8-9337-8b66576d500a)
+
+PS: I know I use Comic sans, it is a good font and thats the end of this discussion.
