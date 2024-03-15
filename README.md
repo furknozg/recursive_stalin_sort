@@ -1,6 +1,6 @@
-#A sorting algorithm that is built upon the principle of stalin sort
+# A sorting algorithm that is built upon the principle of stalin sort
 
-##How so?
+## How so?
 
 Here's how it works, you first do the stalin sort, eliminating all the unordered elements and send them to the gulag
 
