@@ -8,8 +8,8 @@ but hear me out, there may be some merit to this algorithm. It just needs some p
 
 Here's how it works, you first do the stalin sort, eliminating all the unordered elements and send them to the gulag, normally this means deleting the elements out of order but I believe that there are better ways of conveying a gulag such that it actually returns something substantial
 
-The Gulag being a seperate pool of numbers that you can implement stalin sort into, do this until you reach the end of the array
+Making the gulag into a seperate pool that you can implement stalin sort into, you can do this until you reach the end of the array.
 
-Then you will have multiple pools of sorted sub arrays, meaning that you can implement merging.
+Then you will have multiple pools of sorted sub arrays, meaning that you can implement merging to it semi-efficiently.
 
 Then you can do a merging algorithm (my choice is k-way merging and am not sure if there's any good alternative)
