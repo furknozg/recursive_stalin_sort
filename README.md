@@ -39,4 +39,4 @@ Jokes aside the gulag part of the algorithm is the first order of operation whic
 The second part, time depends on the merge algorithm chosen or implemented, I personally chose K-way sorting and like I said, am unsure if any other alternative exists in this scenario which takes O(n*log(k)) where k is the amount of branches created.
 Which at the worst case (if the array is reverse sorted) is O(nlog(n)). Therefore, assuming the array is not reverse sorted in majority, probabilistically it can be O(nlog(n)) maybe, I dont know I havent done the calculations but I find it heavily unlikely. 
 
-I believe that it is a skill issue in my part and somebody is going to break the news to me that this algorithm actually runs like O(n!)
+I believe that it is a skill issue in my part and somebody is going to break the news to me that this algorithm actually runs like O(n!) but until that day I will see this algo as O(n^2) at the worst of the worst.
