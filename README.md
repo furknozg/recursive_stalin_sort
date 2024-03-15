@@ -32,7 +32,7 @@ PS: I know I use Comic sans, it is a good font and thats the end of this discuss
 
 ## Time Complexity
 
-Time: O(YES) or Theta(1==1).
+### Time: O(YES) or Theta(1==1).
 
 Jokes aside the gulag part of the algorithm is the first order of operation which should take O(n) time by itself ideally (if the array is reverse sorted you're probably screwed and face around O(n^2))
 
