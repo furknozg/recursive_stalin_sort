@@ -13,6 +13,11 @@ fn test_recursive_stalin_sort() {
 }
 
 #[test]
-fn test_merge_sort() {
-    //test_rs!(merge_sort)
+fn test_selection_sort() {
+    test_other!(selection_sort_rs);
+}
+
+#[test]
+fn test_insertion_sort() {
+    test_other!(insertion_sort_rs);
 }

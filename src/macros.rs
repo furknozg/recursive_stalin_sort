@@ -19,3 +19,21 @@ macro_rules! test_rs {
         assert_eq!(nums, expected_sorted_nums);
     };
 }
+
+#[macro_export]
+macro_rules! test_other {
+    ($fn:ident) => {
+        let mut rng = thread_rng();
+        let arr: Vec<i32> = (0..10000).map(|_| rng.gen()).collect(); // Generate a random sequence of 1000 elements
+
+        let mut arr_clone = arr.clone();
+        $fn(&mut arr_clone);
+        let nums = arr_clone;
+
+        let mut expected_sorted_nums = arr.clone();
+        expected_sorted_nums.sort();
+
+        // Perform assertions on the sorted result
+        assert_eq!(nums, expected_sorted_nums);
+    };
+}
