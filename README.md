@@ -1,5 +1,9 @@
 # A sorting algorithm that is built upon the principle of stalin sort
 
+Yes, that sorting algorithm where no substantial result is returned but a partial ordered part is. The Joke algorithm in a sense,
+
+but hear me out, there may be some merit to this algorithm. It just needs some polish to make it shine...
+
 ## How so?
 
 Here's how it works, you first do the stalin sort, eliminating all the unordered elements and send them to the gulag
